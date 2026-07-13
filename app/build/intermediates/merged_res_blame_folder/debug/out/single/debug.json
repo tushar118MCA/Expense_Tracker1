@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/menu_menu_main.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/layout_item_expense.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/layout/item_expense.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/layout_activity_budget.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/layout/activity_budget.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/layout_activity_add_expense.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/layout/activity_add_expense.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/layout_activity_statistics.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/layout/activity_statistics.xml"
+    },
+    {
+        "merged": "com.example.expensetracker.app-merged_res-32:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.expensetracker.app-main-34:/drawable/ic_launcher.xml"
+    }
+]

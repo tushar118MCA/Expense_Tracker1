@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_statistics"
+        android:title="Statistics"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_sort_by_size" />
+    <item
+        android:id="@+id/action_set_budget"
+        android:title="Set Budget"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_all"
+        android:title="Clear All"
+        app:showAsAction="never" />
+</menu>

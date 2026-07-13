@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set how much you plan to spend for a month or year. We'll track your expenses against it."
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnBudgetMonthly"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Monthly"
+                android:backgroundTint="@color/purple_700"
+                android:textColor="@android:color/white"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnBudgetYearly"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Yearly"
+                android:backgroundTint="#E0E0E0"
+                android:textColor="#212121"
+                android:layout_marginStart="6dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Period"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+        <Spinner
+            android:id="@+id/spinnerBudgetPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget amount"
+            android:textSize="14sp"
+            android:textColor="#757575" />
+
+        <EditText
+            android:id="@+id/etBudgetAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 15000"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnSaveBudget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Budget"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>
