@@ -1,12 +1,12 @@
-# 💰 Expense Tracker
+# Expense Tracker
 
 A simple Android application to track daily income and expenses, helping users manage their personal finances with ease.
 
-## 📋 Overview
+## Overview
 
 Expense Tracker allows users to record transactions, categorize spending, set monthly/yearly budgets, and view summaries of their financial activity over time. It's designed to give a clear picture of where money is going and help with budgeting decisions.
 
-## ✨ Features
+## Features
 
 * Add, edit, and delete expense entries
 * Categorize transactions (Food, Rent, Transport, Entertainment, Bills, Health, Shopping, Other)
@@ -15,14 +15,16 @@ Expense Tracker allows users to record transactions, categorize spending, set mo
 * Visual summary via pie charts (spend by category) and bar charts (daily/monthly trend)
 * Data persistence via a local SQLite database — works fully offline
 
-## 🛠️ Tech Stack
+
+## Screenshots 
+
+##  Tech Stack
 
 * **Platform**: Android (Java)
 * **Database**: SQLite, via `SQLiteOpenHelper`
-* **Charts**: [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * **UI**: AndroidX, Material Components, RecyclerView
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -42,7 +44,7 @@ git clone https://github.com/your-username/expense-tracker.git
 
 Let Gradle sync — it will pull in AndroidX, Material, and MPAndroidChart (via JitPack) automatically. Then press **Run** to install the app on an emulator or connected device.
 
-## 📖 Usage
+##  Usage
 
 1. Launch the app.
 2. Tap **+** to add a new expense — enter the title, amount, category, date, and an optional note.
@@ -50,32 +52,7 @@ Let Gradle sync — it will pull in AndroidX, Material, and MPAndroidChart (via 
 4. Open **Statistics** from the menu to see monthly/yearly charts and category breakdowns.
 5. Open **Set Budget** to set how much you plan to spend for a month or year, then track it on the Statistics screen.
 
-## 📁 Project Structure
-
-```
-ExpenseTracker/
-├── app/
-│   ├── build.gradle
-│   └── src/main/
-│       ├── AndroidManifest.xml
-│       ├── java/com/example/expensetracker/
-│       │   ├── MainActivity.java        -> expense list, total, filter
-│       │   ├── AddExpenseActivity.java  -> add/edit/delete an expense
-│       │   ├── StatisticsActivity.java  -> charts + budget progress
-│       │   ├── BudgetActivity.java      -> set a monthly/yearly budget
-│       │   ├── DatabaseHelper.java      -> SQLite: all tables & queries
-│       │   ├── Expense.java             -> model class
-│       │   └── ExpenseAdapter.java      -> RecyclerView adapter
-│       └── res/
-│           ├── layout/                  -> activity & list-item XML layouts
-│           ├── values/                  -> strings, colors, themes
-│           └── menu/menu_main.xml
-├── build.gradle
-├── settings.gradle
-└── README.md
-```
-
-## 🗄️ Database
+##  Database
 
 Two tables, managed by `DatabaseHelper`:
 
@@ -94,13 +71,10 @@ CREATE TABLE budgets (
     UNIQUE(period_type, period_key)
 );
 ```
-
-Both are created automatically the first time the app runs — no manual setup needed.
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
