@@ -18,6 +18,48 @@ Expense Tracker allows users to record transactions, categorize spending, set mo
 
 ## Screenshots 
 
+### 🏠 Home Screen
+Displays the total balance, expense list, category filter, and quick add button.
+
+![Home Screen]()
+
+---
+
+### ➕ Add Expense
+Users can add a new expense by entering the title, amount, category, date, and an optional note.
+
+![Add Expense](images/Add_Screen.png)
+
+---
+
+### 📊 Statistics
+Shows monthly/yearly spending summaries, budget progress, pie chart by category, and daily spending trends.
+
+![Statistics](images/Statistics_page.png)
+
+---
+
+### 💰 Set Budget
+Allows users to define monthly or yearly budgets and monitor spending against them.
+
+![Set Budget](images/Budget_Screen.png)
+
+
+## 📱 Application Screenshots
+
+| Home | Add Expense |
+|------|-------------|
+| ![](images/Home_screen.png) | ![](images/Add_Screen.png) |
+
+| Statistics | Set Budget |
+|------------|------------|
+| ![](images/Statistics_page.png) | ![](images/Budget_Screen.png) |
+
+This creates a clean 2×2 gallery, which is commonly used in professional GitHub repositories.
+
+
+
+
 ##  Tech Stack
 
 * **Platform**: Android (Java)
