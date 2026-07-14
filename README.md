@@ -14,50 +14,16 @@ Expense Tracker allows users to record transactions, categorize spending, set mo
 * Set a monthly or yearly budget and track spending against it, with a progress bar that flags overspending
 * Visual summary via pie charts (spend by category) and bar charts (daily/monthly trend)
 * Data persistence via a local SQLite database — works fully offline
-
-
-## Screenshots 
-
-### 🏠 Home Screen
-Displays the total balance, expense list, category filter, and quick add button.
-
-![Home Screen]()
-
----
-
-### ➕ Add Expense
-Users can add a new expense by entering the title, amount, category, date, and an optional note.
-
-![Add Expense](images/Add_Screen.png)
-
----
-
-### 📊 Statistics
-Shows monthly/yearly spending summaries, budget progress, pie chart by category, and daily spending trends.
-
-![Statistics](images/Statistics_page.png)
-
----
-
-### 💰 Set Budget
-Allows users to define monthly or yearly budgets and monitor spending against them.
-
-![Set Budget](images/Budget_Screen.png)
-
-
-## 📱 Application Screenshots
+  
+## Application Screenshots
 
 | Home | Add Expense |
 |------|-------------|
-| ![](images/Home_screen.png) | ![](images/Add_Screen.png) |
+| ![](https://github.com/tushar118MCA/Expense_Tracker1/blob/3caf4f938a11eb3be1633e77c40053022af5d3eb/Home_screen.png) | ![](https://github.com/tushar118MCA/Expense_Tracker1/blob/b4f6b2e59924050aed33d8ed005c193104d32611/Add_Expenses.png) |
 
 | Statistics | Set Budget |
 |------------|------------|
-| ![](images/Statistics_page.png) | ![](images/Budget_Screen.png) |
-
-This creates a clean 2×2 gallery, which is commonly used in professional GitHub repositories.
-
-
+| ![](https://github.com/tushar118MCA/Expense_Tracker1/blob/b4f6b2e59924050aed33d8ed005c193104d32611/Statistics_page.png) | ![](https://github.com/tushar118MCA/Expense_Tracker1/blob/b4f6b2e59924050aed33d8ed005c193104d32611/Budget_Screen.png) |
 
 
 ##  Tech Stack
